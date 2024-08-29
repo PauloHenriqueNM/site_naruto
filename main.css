@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: "Nerko One", cursive;
+    background-color: rgb(248, 248, 173);
+    font-weight: normal;
+}
+
+header,
+section h2,
+section h3 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: normal;
+}
+
+header {
+    background-color: 	#f05321;
+    padding: 20px;
+    color: black;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.contanier {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .contanier,
+section .contanier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+ h2, h3 {
+    color: #f05321;
+}
+
+.naruto1  {
+    height: 300px;
+    width: 220px;
+    display: inline;
+    border: solid #f05321 1px;
+}
+
+.contanier p {
+    display: flex;
+    padding-left: 1rem;
+    font-size: 18px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section .contanier {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: black;
+}
+
+.narutoevo img {
+    height: 450px;
+    width: 530px;
+    display: flex;
+    border: solid #f05321 1px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contato .contanier {
+    display: block;
+}
+
+.contato_metodos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color:#f05321;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f05321;
+    border-radius: 12px;
+    transform: scale(1.03);
+}
+
+input:focus, textarea:focus {
+    outline-color: #f05321;
+    transform: scale(1.05);
+    background-color: #ecf0f1;
+}
+
+footer {
+    background-color: #f05321;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
